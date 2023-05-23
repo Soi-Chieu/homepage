@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #9fa1a4;
   line-height: 1.5;
 }
@@ -38,6 +38,22 @@ h6,
 .font-heading {
   font-family: "Poppins", sans-serif;
   color: #000;
+}
+.navbar .getstarted,
+.navbar .getstarted:focus {
+  padding: 8px 20px;
+  margin-left: 30px;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 14px;
+  border: 2px solid #47b2e4;
+  font-weight: 600;
+}
+
+.navbar .getstarted:hover,
+.navbar .getstarted:focus:hover {
+  color: #fff;
+  background: #31a9e1;
 }
 
 .container {
@@ -809,6 +825,11 @@ section {
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
   color: #2d71a1;
+}
+.navbar-mobile .getstarted,
+.navbar-mobile .getstarted:focus {
+  margin: 15px;
+  color: #37517e;
 }
 
 .navbar-mobile .dropdown ul {
